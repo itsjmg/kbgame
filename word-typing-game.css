@@ -1,0 +1,43 @@
+#word-typing-game {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #ccc;
+    text-align: center;
+}
+
+#word-typing-game p {
+    margin: 0 0 10px;
+}
+
+#word-typing-game input[type="text"] {
+    width: 100%;
+    margin: 0 0 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#word-typing-game button {
+    display: block;
+    margin: 0 auto 10px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#word-typing-game button:hover {
+    background-color: #3e8e41;
+}
+
+#word-typing-game .success {
+    color: green;
+}
+
+#word-typing-game .error {
+    color: red;
+}
